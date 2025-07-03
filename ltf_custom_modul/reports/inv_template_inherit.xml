@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="ferp_inv_layout_inherited" inherit_id="ferp_so_po_printing_template.ferp_inv_layout">
+        <xpath expr="//div[hasclass('article')]/div[hasclass('address')]/div[@name='address']" position="inside">
+            <div class="row">
+                <div class="col-6 text-end">
+                    <span>No Po/SPK :</span>
+                </div>
+                <div class="col-6 text-end">
+                    <span t-esc="o.po_spk_number_from_so"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

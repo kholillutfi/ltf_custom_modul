@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_payment_online_platform,Tabel Account Payment Online Platform,model_account_payment_online_platform,,1,1,1,1
+access_akrt_need_category,Tabel AKRT Need Category,model_akrt_need_category,,1,1,1,1
+access_akrt_kas_monthly_period,Tabel AKRT Monthly Period,model_akrt_kas_monthly_period,,1,1,1,1
+access_akrt_kas_needs_plan,Tabel AKRT Kas Needs Plan,model_akrt_kas_needs_plan,,1,1,1,1
+access_akrt_kas_journal_categ,Tabel AKRT Kas journal Categ,model_akrt_kas_journal_categ,,1,1,1,1
+
+
